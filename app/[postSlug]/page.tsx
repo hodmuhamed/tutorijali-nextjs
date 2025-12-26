@@ -81,8 +81,10 @@ async function getLatestPosts() {
 
 /* ================= METADATA ================= */
 export function generateMetadata({ params }: PageProps): Metadata {
-  const canonical = getCanonicalUrl(`/${params.postSlug}`)
-  const formattedTitle = params.postSlug
+  const slugInput = (params.postSlug || '').trim()
+  const slug = slugInput || 'clanak'
+  const canonical = getCanonicalUrl(`/${slug}`)
+  const formattedTitle = slug
     .split('-')
     .map(part => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ')

@@ -5,6 +5,7 @@ import { Inter, Oswald } from 'next/font/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { CANONICAL_ORIGIN } from '@/lib/seo';
+import { TitleGuard } from '@/components/TitleGuard';
 
 /* ================================
    FONTS
@@ -83,6 +84,7 @@ export default function RootLayout({
         />
 
         <Header />
+        <TitleGuard />
         {children}
         <Footer />
       </body>
