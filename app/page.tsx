@@ -33,16 +33,14 @@ const Adsense = dynamic(
 /* =========================
    SEO METADATA
 ========================= */
-export async function generateMetadata(): Promise<Metadata> {
-  const canonical = getCanonicalUrl('/')
+const canonical = getCanonicalUrl('/')
 
-  return {
-    title: 'Go2Njemačka – Život i rad u Njemačkoj',
-    description:
-      'Sve što trebate znati o životu i radu u Njemačkoj: posao, porez, porodica, dokumenti i praktični savjeti.',
-    alternates: { canonical },
-    robots: 'index,follow',
-  }
+export const metadata: Metadata = {
+  title: 'Go2Njemačka – Život i rad u Njemačkoj',
+  description:
+    'Sve što trebate znati o životu i radu u Njemačkoj: posao, porez, porodica, dokumenti i praktični savjeti.',
+  alternates: { canonical },
+  robots: 'index,follow',
 }
 
 /* =========================

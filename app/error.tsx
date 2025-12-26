@@ -1,6 +1,12 @@
 'use client'
 
+import type { Metadata } from 'next'
 import { useEffect } from 'react'
+
+export const metadata: Metadata = {
+  title: 'Greška | Go2Njemačka',
+  description: 'Došlo je do neočekivane greške na Go2Njemačka portalu.',
+}
 
 export default function GlobalError({
   error,

@@ -1,5 +1,9 @@
-import Link from 'next/link';
-import { Home, Search } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Stranica nije pronađena | Go2Njemačka',
+  description: 'Stranica koju tražite nije pronađena na Go2Njemačka portalu.',
+};
 
 export default function NotFound() {
   return (
