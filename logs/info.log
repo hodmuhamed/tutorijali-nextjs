@@ -1,0 +1,555 @@
+[2025-12-26T11:29:18.336Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"povrat-poreza-za-putovanje-prevoz-na-posao-2025"}}
+[2025-12-26T11:29:18.341Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"povrat-poreza-za-putovanje-prevoz-na-posao-2025"}}
+[2025-12-26T11:29:19.473Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMA=="],"notIn":["cG9zdDo4MzE="],"first":4}}
+[2025-12-26T11:29:19.473Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:29:35.394Z] graphqlFetch START | {"queryPreview":"\n  query AllPostsSlugs {\n    posts(first: 10000, where: { orderby: { field: DATE","variables":{}}
+[2025-12-26T11:29:35.396Z] graphqlFetch START | {"queryPreview":"\n  query AllCategoriesSlugs {\n    categories(first: 1000, where: { hideEmpty: tr","variables":{}}
+[2025-12-26T11:29:35.396Z] graphqlFetch START | {"queryPreview":"\n  query AllTagsSlugs {\n    tags(first: 1000, where: { hideEmpty: true }) {\n    ","variables":{}}
+[2025-12-26T11:29:35.762Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:29:35.762Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:29:35.763Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:29:36.637Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:29:36.988Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:29:36.988Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:29:36.989Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:29:36.990Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:29:37.438Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:29:37.677Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:29:37.678Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:29:37.679Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:29:38.516Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:29:38.809Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:29:38.810Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:29:38.810Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:29:38.811Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:29:39.352Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:29:47.503Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"brojevi-do-100-na-nemackom"}}
+[2025-12-26T11:29:47.512Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"brojevi-do-100-na-nemackom"}}
+[2025-12-26T11:29:47.757Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo1MDA="],"notIn":["cG9zdDo0Nzc5NA=="],"first":4}}
+[2025-12-26T11:29:47.759Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:30:08.056Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"sitemap_index.xml"}}
+[2025-12-26T11:30:08.069Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"sitemap_index.xml"}}
+[2025-12-26T11:30:53.042Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:30:53.053Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:30:53.278Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMA=="],"notIn":["cG9zdDo4MzQ="],"first":4}}
+[2025-12-26T11:30:53.279Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:31:05.929Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-cron.php"}}
+[2025-12-26T11:31:05.940Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-cron.php"}}
+[2025-12-26T11:31:49.993Z] graphqlFetch START | {"queryPreview":"\n  query AllPostsSlugs {\n    posts(first: 10000, where: { orderby: { field: DATE","variables":{}}
+[2025-12-26T11:31:49.994Z] graphqlFetch START | {"queryPreview":"\n  query AllCategoriesSlugs {\n    categories(first: 1000, where: { hideEmpty: tr","variables":{}}
+[2025-12-26T11:31:49.995Z] graphqlFetch START | {"queryPreview":"\n  query AllTagsSlugs {\n    tags(first: 1000, where: { hideEmpty: true }) {\n    ","variables":{}}
+[2025-12-26T11:31:50.326Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:31:50.327Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:31:50.328Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:31:51.332Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:31:51.601Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:31:51.601Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:31:51.602Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:31:51.602Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:31:52.144Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:31:52.408Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:31:52.409Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:31:52.410Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:31:53.207Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:31:53.532Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:31:53.532Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:31:53.533Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:31:53.533Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:31:53.978Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:32:02.782Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"admin"}}
+[2025-12-26T11:32:02.798Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"admin"}}
+[2025-12-26T11:32:12.689Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:32:12.696Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:32:12.900Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMA=="],"notIn":["cG9zdDo4MzQ="],"first":4}}
+[2025-12-26T11:32:12.901Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:32:54.530Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:32:54.534Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:32:54.534Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:32:55.332Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:32:55.628Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:32:55.628Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:32:55.629Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:32:55.629Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:32:56.104Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:32:56.233Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:32:56.234Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:32:56.234Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:32:56.241Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:32:56.243Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:32:56.243Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:32:56.244Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:32:56.244Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:32:56.252Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:32:57.256Z] graphqlFetch START | {"queryPreview":"\n  query TagBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    tag(id: $","variables":{"slug":"najbolje-firme-u-njemackoj","first":12,"after":null}}
+[2025-12-26T11:32:57.257Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:32:57.257Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:32:57.265Z] graphqlFetch START | {"queryPreview":"\n  query TagBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    tag(id: $","variables":{"slug":"najbolje-firme-u-njemackoj","first":12,"after":null}}
+[2025-12-26T11:33:02.369Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zanima-vas-kako-izgleda-vikend-jedne-njemacke-porodice"}}
+[2025-12-26T11:33:02.377Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zanima-vas-kako-izgleda-vikend-jedne-njemacke-porodice"}}
+[2025-12-26T11:33:02.590Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0OTEwNA=="],"first":4}}
+[2025-12-26T11:33:02.591Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:33:03.503Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zanima-vas-kako-izgleda-vikend-jedne-njemacke-porodice"}}
+[2025-12-26T11:33:03.504Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0OTEwNA=="],"first":4}}
+[2025-12-26T11:33:03.505Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:33:03.526Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zanima-vas-kako-izgleda-vikend-jedne-njemacke-porodice"}}
+[2025-12-26T11:33:09.581Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:33:09.582Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:33:09.583Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:33:09.589Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:33:11.646Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"povrat-poreza","first":12,"after":null}}
+[2025-12-26T11:33:11.655Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:33:11.664Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:33:11.666Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"povrat-poreza","first":12,"after":null}}
+[2025-12-26T11:33:42.575Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"nasi-ginekolozi-u-minhenu"}}
+[2025-12-26T11:33:42.581Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"nasi-ginekolozi-u-minhenu"}}
+[2025-12-26T11:33:42.842Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMg=="],"notIn":["cG9zdDo0ODIxNQ=="],"first":4}}
+[2025-12-26T11:33:42.843Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:33:49.312Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:33:49.313Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:33:49.313Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:33:49.333Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:34:01.281Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:34:01.281Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:34:01.282Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:34:01.631Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:34:01.634Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:34:01.635Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:34:01.635Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:34:01.635Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:34:01.644Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:34:01.755Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:34:01.756Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:34:01.756Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:34:01.766Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:34:01.769Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:34:01.770Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:34:01.770Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:34:01.770Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:34:01.776Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:34:03.674Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"spajanje-porodice-u-njemackoj"}}
+[2025-12-26T11:34:03.678Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"spajanje-porodice-u-njemackoj"}}
+[2025-12-26T11:34:03.777Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zanima-vas-kako-izgleda-vikend-jedne-njemacke-porodice"}}
+[2025-12-26T11:34:03.778Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zanima-vas-kako-izgleda-vikend-jedne-njemacke-porodice"}}
+[2025-12-26T11:34:03.779Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0OTEwNA=="],"first":4}}
+[2025-12-26T11:34:03.779Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:34:10.547Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"minimalna-satnica-u-njemackoj-od-2026"}}
+[2025-12-26T11:34:10.553Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"minimalna-satnica-u-njemackoj-od-2026"}}
+[2025-12-26T11:34:10.746Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0ODU4MA=="],"first":4}}
+[2025-12-26T11:34:10.747Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:34:11.545Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"minimalna-satnica-u-njemackoj-od-2026"}}
+[2025-12-26T11:34:11.546Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0ODU4MA=="],"first":4}}
+[2025-12-26T11:34:11.547Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:34:11.565Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"minimalna-satnica-u-njemackoj-od-2026"}}
+[2025-12-26T11:34:33.840Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:34:33.840Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:34:33.841Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:34:33.847Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:34:34.607Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kolika-je-potrebna-plata-za-spajanje-porodice-u-njemackoj"}}
+[2025-12-26T11:34:34.611Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kolika-je-potrebna-plata-za-spajanje-porodice-u-njemackoj"}}
+[2025-12-26T11:34:34.835Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NjE="],"notIn":["cG9zdDo0Nzk4NA=="],"first":4}}
+[2025-12-26T11:34:34.836Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:34:35.983Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"znakovi-zabrane-parkiranja-u-njemackoj-vodic-za-vozace"}}
+[2025-12-26T11:34:35.984Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"znakovi-zabrane-parkiranja-u-njemackoj-vodic-za-vozace"}}
+[2025-12-26T11:34:36.229Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0ODU1Mg=="],"first":4}}
+[2025-12-26T11:34:36.230Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:34:37.701Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"vorabzustimmung-koliko-se-ceka"}}
+[2025-12-26T11:34:37.707Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"vorabzustimmung-koliko-se-ceka"}}
+[2025-12-26T11:34:37.918Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NTY=","dGVybToyMA=="],"notIn":["cG9zdDo0ODAyOA=="],"first":4}}
+[2025-12-26T11:34:37.918Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:36:10.281Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:36:10.282Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:36:10.282Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:36:11.584Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:36:11.586Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:36:11.586Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:36:11.587Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:36:11.587Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:36:11.597Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:36:11.655Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:36:11.665Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:36:11.671Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:36:11.690Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:36:11.691Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:36:11.692Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:36:11.692Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:36:11.692Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:36:11.704Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:36:27.333Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"minimalna-satnica-u-njemackoj-od-2026"}}
+[2025-12-26T11:36:27.335Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0ODU4MA=="],"first":4}}
+[2025-12-26T11:36:27.336Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:36:27.361Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"minimalna-satnica-u-njemackoj-od-2026"}}
+[2025-12-26T11:37:31.040Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:37:31.042Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:37:31.042Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:37:32.372Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:37:32.375Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:37:32.376Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:37:32.376Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:37:32.377Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:37:32.384Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:37:32.457Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:37:32.458Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:37:32.458Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:37:32.468Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:37:32.473Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:37:32.473Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:37:32.474Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:37:32.474Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:37:32.484Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:39:15.157Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:39:15.158Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:39:15.159Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:39:16.839Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:39:16.841Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:39:16.841Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:39:16.842Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:39:16.842Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:39:16.847Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:39:16.894Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:39:16.894Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:39:16.895Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:39:16.900Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:39:16.901Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:39:16.902Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:39:16.902Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:39:16.902Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:39:16.927Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:39:25.358Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"viza-za-njemacku-preko-45-godina"}}
+[2025-12-26T11:39:25.364Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"viza-za-njemacku-preko-45-godina"}}
+[2025-12-26T11:39:25.571Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMQ=="],"notIn":["cG9zdDo0ODA0OA=="],"first":4}}
+[2025-12-26T11:39:25.571Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:39:26.304Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"viza-za-njemacku-preko-45-godina"}}
+[2025-12-26T11:39:26.305Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMQ=="],"notIn":["cG9zdDo0ODA0OA=="],"first":4}}
+[2025-12-26T11:39:26.306Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:39:26.315Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"viza-za-njemacku-preko-45-godina"}}
+[2025-12-26T11:39:28.010Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"posao-u-njemackoj-za-medicinske-sestre-bez-nostrifikacije-diplome"}}
+[2025-12-26T11:39:28.014Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"posao-u-njemackoj-za-medicinske-sestre-bez-nostrifikacije-diplome"}}
+[2025-12-26T11:39:28.321Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToyMA=="],"notIn":["cG9zdDo5ODQ="],"first":4}}
+[2025-12-26T11:39:28.321Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:40:01.725Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"viza-za-njemacku-preko-45-godina"}}
+[2025-12-26T11:40:01.727Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMQ=="],"notIn":["cG9zdDo0ODA0OA=="],"first":4}}
+[2025-12-26T11:40:01.727Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:40:01.745Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"viza-za-njemacku-preko-45-godina"}}
+[2025-12-26T11:41:05.823Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-cron.php"}}
+[2025-12-26T11:41:05.828Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-cron.php"}}
+[2025-12-26T11:41:56.756Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-zamijeniti-vozacku-dozvolu-u-njemackoj-novo-2024"}}
+[2025-12-26T11:41:56.762Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-zamijeniti-vozacku-dozvolu-u-njemackoj-novo-2024"}}
+[2025-12-26T11:41:56.988Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo0OTc="],"notIn":["cG9zdDo2NjY="],"first":4}}
+[2025-12-26T11:41:56.988Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:42:08.183Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:42:08.184Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:42:08.184Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:42:08.493Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:42:08.495Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:42:08.495Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:42:08.496Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:42:08.496Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:42:08.502Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:42:08.554Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:42:08.555Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:42:08.555Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:42:08.574Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:42:08.576Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:42:08.576Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:42:08.576Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:42:08.576Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:42:08.586Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:44:05.245Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:44:05.250Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:44:06.339Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NDU="],"notIn":["cG9zdDo0ODEwNw=="],"first":4}}
+[2025-12-26T11:44:06.339Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:44:07.120Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:44:07.121Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:44:07.121Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:44:07.461Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:44:07.726Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:44:07.727Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:44:07.727Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:44:07.728Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:44:08.176Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:44:08.212Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:44:08.213Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:44:08.214Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:44:08.224Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:44:08.227Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:44:08.228Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:44:08.229Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:44:08.229Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:44:08.259Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:44:08.451Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"favicon.ico"}}
+[2025-12-26T11:44:08.455Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"favicon.ico"}}
+[2025-12-26T11:44:18.668Z] graphqlFetch START | {"queryPreview":"\n  query TagBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    tag(id: $","variables":{"slug":"posao-u-njemackoj","first":12,"after":null}}
+[2025-12-26T11:44:18.669Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:44:18.669Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:44:18.679Z] graphqlFetch START | {"queryPreview":"\n  query TagBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    tag(id: $","variables":{"slug":"posao-u-njemackoj","first":12,"after":null}}
+[2025-12-26T11:44:54.623Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"ausbildung-u-njemackoj-iskustva-viza-plata-smjestaj-2024"}}
+[2025-12-26T11:44:54.629Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"ausbildung-u-njemackoj-iskustva-viza-plata-smjestaj-2024"}}
+[2025-12-26T11:44:54.849Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo1MDA=","dGVybTo0OTc="],"notIn":["cG9zdDo2Nzk="],"first":4}}
+[2025-12-26T11:44:54.849Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:45:17.157Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"prijevremena-mirovina-u-njemackoj-kompletan-vodic-za-2024"}}
+[2025-12-26T11:45:17.163Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"prijevremena-mirovina-u-njemackoj-kompletan-vodic-za-2024"}}
+[2025-12-26T11:45:17.385Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo1MDI="],"notIn":["cG9zdDoxMDM3"],"first":4}}
+[2025-12-26T11:45:17.386Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:45:18.560Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"favicon.ico"}}
+[2025-12-26T11:45:18.567Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"favicon.ico"}}
+[2025-12-26T11:45:18.819Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:45:18.819Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:45:18.820Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:45:19.535Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:45:19.536Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:45:19.536Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:45:19.537Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:45:19.537Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:45:19.541Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:45:19.577Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:45:19.578Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:45:19.578Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:45:19.589Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:45:19.591Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:45:19.592Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:45:19.593Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:45:19.593Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:45:19.609Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:45:23.930Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:45:23.931Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NDU="],"notIn":["cG9zdDo0ODEwNw=="],"first":4}}
+[2025-12-26T11:45:23.932Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:45:23.939Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:46:02.096Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:46:02.098Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NDU="],"notIn":["cG9zdDo0ODEwNw=="],"first":4}}
+[2025-12-26T11:46:02.098Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:46:02.110Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:46:33.665Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"vize-za-njemacku"}}
+[2025-12-26T11:46:33.669Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"vize-za-njemacku"}}
+[2025-12-26T11:46:56.686Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:46:56.690Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:46:56.698Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMA=="],"notIn":["cG9zdDo4MzQ="],"first":4}}
+[2025-12-26T11:46:56.698Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:47:13.305Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:47:13.306Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:47:13.307Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:47:13.863Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:47:13.864Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:47:13.864Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:47:13.864Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:47:13.864Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:47:13.869Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:47:13.904Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:47:13.904Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:47:13.904Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:47:13.910Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:47:13.915Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:47:13.916Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:47:13.916Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:47:13.916Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:47:13.925Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:47:18.353Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"porodiljni-u-njemackoj-2025"}}
+[2025-12-26T11:47:18.357Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"porodiljni-u-njemackoj-2025"}}
+[2025-12-26T11:47:18.576Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo0OTc=","dGVybToxMg=="],"notIn":["cG9zdDoxMDU4"],"first":4}}
+[2025-12-26T11:47:18.577Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:47:24.676Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:47:24.677Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NDU="],"notIn":["cG9zdDo0ODEwNw=="],"first":4}}
+[2025-12-26T11:47:24.677Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:47:24.689Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijena-vinjete-austrija"}}
+[2025-12-26T11:47:29.478Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"prijevremena-mirovina-u-njemackoj-kompletan-vodic-za-2024"}}
+[2025-12-26T11:47:29.479Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo1MDI="],"notIn":["cG9zdDoxMDM3"],"first":4}}
+[2025-12-26T11:47:29.479Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:47:29.490Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"prijevremena-mirovina-u-njemackoj-kompletan-vodic-za-2024"}}
+[2025-12-26T11:48:19.827Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:48:19.827Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:48:19.828Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:48:20.154Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:48:20.157Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:48:20.157Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:48:20.158Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:48:20.158Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:48:20.164Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:48:20.240Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:48:20.241Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:48:20.241Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:48:20.258Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:48:20.260Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:48:20.260Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:48:20.260Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:48:20.261Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:48:20.273Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:49:08.671Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"uvezivanje-radnog-staza-u-njemackoj-2025"}}
+[2025-12-26T11:49:08.682Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"uvezivanje-radnog-staza-u-njemackoj-2025"}}
+[2025-12-26T11:49:08.891Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo1MDI=","dGVybToyMA=="],"notIn":["cG9zdDo0ODMyNQ=="],"first":4}}
+[2025-12-26T11:49:08.892Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:51:05.337Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-cron.php"}}
+[2025-12-26T11:51:05.344Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-cron.php"}}
+[2025-12-26T11:51:22.346Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:51:22.347Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMA=="],"notIn":["cG9zdDo4MzQ="],"first":4}}
+[2025-12-26T11:51:22.347Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:51:22.363Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-se-prijaviti-za-porezni-broj-steuernummer-u-njemackoj-2024"}}
+[2025-12-26T11:51:27.795Z] graphqlFetch START | {"queryPreview":"\n  query AllPostsSlugs {\n    posts(first: 10000, where: { orderby: { field: DATE","variables":{}}
+[2025-12-26T11:51:27.797Z] graphqlFetch START | {"queryPreview":"\n  query AllCategoriesSlugs {\n    categories(first: 1000, where: { hideEmpty: tr","variables":{}}
+[2025-12-26T11:51:27.798Z] graphqlFetch START | {"queryPreview":"\n  query AllTagsSlugs {\n    tags(first: 1000, where: { hideEmpty: true }) {\n    ","variables":{}}
+[2025-12-26T11:51:28.158Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:51:28.159Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:51:28.159Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:51:28.985Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:51:29.358Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:51:29.359Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:51:29.359Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:51:29.360Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:51:29.828Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:51:30.074Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:51:30.075Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:51:30.076Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:51:30.847Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:51:31.137Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:51:31.138Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:51:31.138Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:51:31.139Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:51:31.641Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:51:58.498Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:51:58.502Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:51:58.503Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:51:58.508Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:52:00.455Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"povrat-poreza","first":12,"after":null}}
+[2025-12-26T11:52:00.456Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:52:00.456Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:52:00.460Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"povrat-poreza","first":12,"after":null}}
+[2025-12-26T11:52:36.063Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"za-koje-zemlje-treba-viza-sa-bosanskim-pasosem"}}
+[2025-12-26T11:52:36.072Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"za-koje-zemlje-treba-viza-sa-bosanskim-pasosem"}}
+[2025-12-26T11:52:36.300Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0NzgyOA=="],"first":4}}
+[2025-12-26T11:52:36.301Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:52:38.466Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-login.php"}}
+[2025-12-26T11:52:38.471Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"wp-login.php"}}
+[2025-12-26T11:52:47.924Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"vozacke-dozvole-crne-gore-u-njemackoj-sve-sto-trebate-znati"}}
+[2025-12-26T11:52:47.932Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"vozacke-dozvole-crne-gore-u-njemackoj-sve-sto-trebate-znati"}}
+[2025-12-26T11:52:48.229Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0Nzk0NQ=="],"first":4}}
+[2025-12-26T11:52:48.230Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:53:16.802Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kupovina-nekretnine-u-njemackoj-za-strance-kompletan-vodic-2025"}}
+[2025-12-26T11:53:16.811Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kupovina-nekretnine-u-njemackoj-za-strance-kompletan-vodic-2025"}}
+[2025-12-26T11:53:17.112Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo1MDE="],"notIn":["cG9zdDo0ODE4NA=="],"first":4}}
+[2025-12-26T11:53:17.114Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:53:51.099Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:53:51.103Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:53:51.103Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:53:52.013Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:53:52.257Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:53:52.258Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:53:52.258Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:53:52.259Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:53:53.184Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:53:53.220Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:53:53.221Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:53:53.221Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:53:53.225Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:53:53.226Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:53:53.226Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:53:53.226Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:53:53.226Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:53:53.231Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:53:56.803Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"nasi-doktori-u-berlinu"}}
+[2025-12-26T11:53:56.809Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"nasi-doktori-u-berlinu"}}
+[2025-12-26T11:53:56.982Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMg=="],"notIn":["cG9zdDo0ODgwNw=="],"first":4}}
+[2025-12-26T11:53:56.983Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:53:57.980Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"nasi-doktori-u-berlinu"}}
+[2025-12-26T11:53:57.982Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybToxMg=="],"notIn":["cG9zdDo0ODgwNw=="],"first":4}}
+[2025-12-26T11:53:57.983Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:53:58.007Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"nasi-doktori-u-berlinu"}}
+[2025-12-26T11:53:58.979Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zustimmung-koliko-se-ceka"}}
+[2025-12-26T11:53:58.984Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"zustimmung-koliko-se-ceka"}}
+[2025-12-26T11:53:59.161Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NTY=","dGVybToyMA=="],"notIn":["cG9zdDo0Nzk5OQ=="],"first":4}}
+[2025-12-26T11:53:59.162Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:54:02.416Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:54:02.416Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:54:02.417Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:54:02.419Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"dolazak-u-njemacku","first":12,"after":null}}
+[2025-12-26T11:54:03.315Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"povrat-poreza","first":12,"after":null}}
+[2025-12-26T11:54:03.316Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:54:03.316Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:54:03.320Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"povrat-poreza","first":12,"after":null}}
+[2025-12-26T11:54:04.013Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"posao","first":12,"after":null}}
+[2025-12-26T11:54:04.013Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:54:04.014Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:54:04.018Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"posao","first":12,"after":null}}
+[2025-12-26T11:54:04.843Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"porodica","first":12,"after":null}}
+[2025-12-26T11:54:04.843Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:54:04.844Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:54:04.847Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"porodica","first":12,"after":null}}
+[2025-12-26T11:54:06.046Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijene-stomatoloskih-usluga-u-njemackoj-sta-pokriva-osiguranje-i-koliko-sta-kosta"}}
+[2025-12-26T11:54:06.047Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijene-stomatoloskih-usluga-u-njemackoj-sta-pokriva-osiguranje-i-koliko-sta-kosta"}}
+[2025-12-26T11:54:06.245Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0OTA4NQ=="],"first":4}}
+[2025-12-26T11:54:06.246Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:54:27.453Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kinderzuschlag-u-njemackoj"}}
+[2025-12-26T11:54:27.454Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kinderzuschlag-u-njemackoj"}}
+[2025-12-26T11:54:27.669Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NjI="],"notIn":["cG9zdDo0ODAxNQ=="],"first":4}}
+[2025-12-26T11:54:27.670Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:55:46.095Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kupovina-ljubimca-u-njemackoj-sve-sto-trebate-znati"}}
+[2025-12-26T11:55:46.100Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kupovina-ljubimca-u-njemackoj-sve-sto-trebate-znati"}}
+[2025-12-26T11:55:46.294Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo0OTc="],"notIn":["cG9zdDo5MjI="],"first":4}}
+[2025-12-26T11:55:46.295Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:56:16.156Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:56:16.156Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:56:16.156Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:56:16.476Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:56:16.478Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:56:16.478Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:56:16.479Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:56:16.479Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:56:16.493Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:56:16.574Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:56:16.580Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:56:16.581Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:56:16.588Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:56:16.592Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:56:16.592Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:56:16.592Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:56:16.593Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:56:16.599Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:57:22.084Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:57:22.085Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:57:22.085Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:57:23.298Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:57:23.300Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:57:23.300Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:57:23.301Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:57:23.301Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:57:23.307Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:57:23.362Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:57:23.363Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:57:23.363Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:57:23.372Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:57:23.373Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:57:23.374Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:57:23.375Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:57:23.376Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:57:23.383Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:57:39.993Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijene-stomatoloskih-usluga-u-njemackoj-sta-pokriva-osiguranje-i-koliko-sta-kosta"}}
+[2025-12-26T11:57:39.995Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTox"],"notIn":["cG9zdDo0OTA4NQ=="],"first":4}}
+[2025-12-26T11:57:39.996Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:57:40.033Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"cijene-stomatoloskih-usluga-u-njemackoj-sta-pokriva-osiguranje-i-koliko-sta-kosta"}}
+[2025-12-26T11:58:49.348Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"stan-u-njemackoj","first":12,"after":null}}
+[2025-12-26T11:58:49.348Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":10}}
+[2025-12-26T11:58:49.349Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:58:49.360Z] graphqlFetch START | {"queryPreview":"\n  query CategoryBySlug($slug: ID!, $first: Int = 12, $after: String) {\n    cate","variables":{"slug":"stan-u-njemackoj","first":12,"after":null}}
+[2025-12-26T11:59:11.307Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-zamijeniti-vozacku-dozvolu-u-njemackoj-novo-2024"}}
+[2025-12-26T11:59:11.316Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kako-zamijeniti-vozacku-dozvolu-u-njemackoj-novo-2024"}}
+[2025-12-26T11:59:11.522Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo0OTc="],"notIn":["cG9zdDo2NjY="],"first":4}}
+[2025-12-26T11:59:11.522Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T11:59:44.055Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:59:44.056Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:59:44.056Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:59:44.856Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:59:44.860Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:59:44.861Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:59:44.861Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:59:44.861Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:59:44.869Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T11:59:44.923Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":30}}
+[2025-12-26T11:59:44.923Z] graphqlFetch START | {"queryPreview":"\n  query AllCategories {\n    categories(first: 100, where: { hideEmpty: true }) ","variables":{}}
+[2025-12-26T11:59:44.924Z] graphqlFetch START | {"queryPreview":"\n  query HomeFeatured {\n    posts(first: 16, where: { orderby: { field: DATE, or","variables":{}}
+[2025-12-26T11:59:44.945Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":502,"first":6}}
+[2025-12-26T11:59:44.961Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":1,"first":6}}
+[2025-12-26T11:59:44.961Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":856,"first":6}}
+[2025-12-26T11:59:44.962Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":10,"first":6}}
+[2025-12-26T11:59:44.962Z] graphqlFetch START | {"queryPreview":"\n  query PostsByCategory($categoryId: Int!, $first: Int = 6) {\n    posts(\n      ","variables":{"categoryId":11,"first":6}}
+[2025-12-26T11:59:44.973Z] graphqlFetch START | {"queryPreview":"\n  query TopTags {\n    tags(\n      first: 8\n      where: {\n        orderby: COUN","variables":{}}
+[2025-12-26T12:00:11.608Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kinderzuschlag-u-njemackoj"}}
+[2025-12-26T12:00:11.609Z] graphqlFetch START | {"queryPreview":"\n  query RelatedPosts(\n    $categoryIn: [ID!]\n    $notIn: [ID!]\n    $first: Int ","variables":{"categoryIn":["dGVybTo4NjI="],"notIn":["cG9zdDo0ODAxNQ=="],"first":4}}
+[2025-12-26T12:00:11.610Z] graphqlFetch START | {"queryPreview":"\n  query LatestPosts($first: Int = 10) {\n    posts(\n      first: $first\n      wh","variables":{"first":8}}
+[2025-12-26T12:00:11.622Z] graphqlFetch START | {"queryPreview":"\n  query PostBySlug($slug: ID!) {\n    post(id: $slug, idType: SLUG) {\n      \n  i","variables":{"slug":"kinderzuschlag-u-njemackoj"}}

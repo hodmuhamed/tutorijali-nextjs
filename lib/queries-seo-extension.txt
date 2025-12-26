@@ -1,0 +1,34 @@
+SEO FIELDS EXTENSION FOR QUERIES
+==================================
+
+If you install WPGraphQL SEO plugin (for Yoast SEO or RankMath),
+you can uncomment this section in lib/queries.ts POST_FIELDS:
+
+```graphql
+  seo {
+    title
+    metaDesc
+    canonical
+    opengraphTitle
+    opengraphDescription
+    opengraphImage {
+      sourceUrl
+    }
+    twitterTitle
+    twitterDescription
+    twitterImage {
+      sourceUrl
+    }
+  }
+```
+
+Add this right after the `tags` field section in POST_FIELDS.
+
+The app will automatically use these advanced SEO fields if available,
+otherwise it falls back to smart defaults (title + site name, excerpt, etc.)
+
+Prerequisites:
+1. Install Yoast SEO or RankMath on WordPress
+2. Install WPGraphQL SEO plugin
+3. Uncomment the seo block in queries.ts
+4. Run: npm run build
