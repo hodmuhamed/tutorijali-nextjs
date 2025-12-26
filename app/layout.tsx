@@ -4,7 +4,7 @@ import Script from 'next/script';
 import { Inter, Oswald } from 'next/font/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { CANONICAL_ORIGIN } from '@/lib/seo';
+import { CANONICAL_ORIGIN, ROOT_FALLBACK_TITLE } from '@/lib/seo';
 import { TitleGuard } from '@/components/TitleGuard';
 
 /* ================================
@@ -39,7 +39,7 @@ const SITE_URL = CANONICAL_ORIGIN;
 export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL_ORIGIN),
   title: {
-    default: 'Go2Njemačka – Život i rad u Njemačkoj',
+    default: ROOT_FALLBACK_TITLE,
     template: '%s | Go2Njemačka',
   },
   description:
@@ -70,6 +70,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="bs">
+      <head>
+        <title>{ROOT_FALLBACK_TITLE}</title>
+      </head>
       <body
         className={`${inter.variable} ${oswald.variable} font-sans bg-gray-50`}
       >

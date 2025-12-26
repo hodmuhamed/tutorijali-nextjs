@@ -1,6 +1,7 @@
 import { WPPost, WPSeoFields } from './types';
 
 export const CANONICAL_ORIGIN = 'https://go2njemacka.de';
+export const ROOT_FALLBACK_TITLE = 'Go2Njemačka – Život i rad u Njemačkoj';
 
 const siteUrlEnv = process.env.NEXT_PUBLIC_SITE_URL;
 const SITE_URL = siteUrlEnv || CANONICAL_ORIGIN;

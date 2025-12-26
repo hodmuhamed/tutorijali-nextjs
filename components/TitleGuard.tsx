@@ -2,32 +2,33 @@
 
 import { useEffect } from 'react'
 
-const HARD_FALLBACK_TITLE = 'Go2Njemačka – Život i rad u Njemačkoj'
+import { ROOT_FALLBACK_TITLE } from '@/lib/seo'
 
 export function TitleGuard() {
   useEffect(() => {
     if (typeof document === 'undefined') return
 
-    const titleElement = document.querySelector('title')
-    const initialTitle =
-      (titleElement?.textContent || document.title || '').trim() ||
-      HARD_FALLBACK_TITLE
+    const ensureTitle = () => {
+      let titleElement = document.querySelector('head > title')
 
-    const enforceTitle = () => {
-      const current = (titleElement?.textContent || document.title || '').trim()
+      if (!titleElement) {
+        titleElement = document.createElement('title')
+        document.head.prepend(titleElement)
+      }
+
+      const current = (titleElement.textContent || document.title || '').trim()
       if (!current) {
-        document.title = initialTitle
+        titleElement.textContent = ROOT_FALLBACK_TITLE
+        document.title = ROOT_FALLBACK_TITLE
       }
     }
 
-    enforceTitle()
+    ensureTitle()
 
-    if (!titleElement) return
-
-    const observer = new MutationObserver(enforceTitle)
-    observer.observe(titleElement, {
-      characterData: true,
+    const observer = new MutationObserver(ensureTitle)
+    observer.observe(document.head, {
       childList: true,
+      characterData: true,
       subtree: true,
     })
 
