@@ -77,10 +77,8 @@ async function getCategories(): Promise<WPCategory[]> {
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
-  const slugInput = (params.slug || '').trim();
-  const slug = slugInput || 'oznaka';
-  const canonical = getCanonicalUrl(`/t/${slug}`);
-  const formattedName = slug
+  const canonical = getCanonicalUrl(`/t/${params.slug}`);
+  const formattedName = params.slug
     .split('-')
     .map(part => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ');
