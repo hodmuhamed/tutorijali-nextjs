@@ -38,7 +38,7 @@ const SITE_URL = CANONICAL_ORIGIN;
 export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL_ORIGIN),
   title: {
-    default: 'Go2Njemačka - Informacijski portal za život i rad u Njemačkoj',
+    default: 'Go2Njemačka – Život i rad u Njemačkoj',
     template: '%s | Go2Njemačka',
   },
   description:
