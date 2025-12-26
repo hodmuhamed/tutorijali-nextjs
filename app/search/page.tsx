@@ -25,7 +25,7 @@ interface PageProps {
   };
 }
 
-export async function generateMetadata({ searchParams }: PageProps): Promise<Metadata> {
+export function generateMetadata({ searchParams }: PageProps): Metadata {
   const query = searchParams.q || '';
   const canonical = getCanonicalUrl('/search');
 
