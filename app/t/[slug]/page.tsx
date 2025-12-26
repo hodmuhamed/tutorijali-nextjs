@@ -76,35 +76,20 @@ async function getCategories(): Promise<WPCategory[]> {
   }
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const tag = await getTag(params.slug);
-
-  if (!tag) {
-    return {
-      title: 'Oznaka nije pronađena | Go2Njemačka',
-    };
-  }
-
-  const canonical = getCanonicalUrl(`/t/${tag.slug}`);
-  const description = tag.description
-    ? stripHtml(tag.description).substring(0, 160)
-    : `Pogledajte sve članke označene sa ${tag.name} na Go2Njemačka.`;
+export function generateMetadata({ params }: PageProps): Metadata {
+  const canonical = getCanonicalUrl(`/t/${params.slug}`);
+  const formattedName = params.slug
+    .split('-')
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
 
   return {
-    title: `${tag.name} | Go2Njemačka`,
-    description,
+    title: `${formattedName} | Go2Njemačka`,
+    description: `Pogledajte sve članke označene sa ${formattedName} na Go2Njemačka.`,
     alternates: {
       canonical,
     },
     robots: isTestDomain ? 'noindex,nofollow' : 'index,follow',
-    openGraph: {
-      title: `${tag.name} | Go2Njemačka`,
-      description,
-      url: canonical,
-      siteName: 'Go2Njemačka',
-      locale: 'bs_BA',
-      type: 'website',
-    },
   };
 }
 
