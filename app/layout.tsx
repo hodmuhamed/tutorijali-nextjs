@@ -4,6 +4,8 @@ import Script from 'next/script';
 import { Inter, Oswald } from 'next/font/google';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { CANONICAL_ORIGIN, ROOT_FALLBACK_TITLE } from '@/lib/seo';
+import { TitleGuard } from '@/components/TitleGuard';
 
 /* ================================
    FONTS
@@ -28,8 +30,7 @@ const oswald = Oswald({
    SITE CONFIG
 ================================ */
 
-const SITE_URL = 'https://go2njemacka.de';
-const CANONICAL_ORIGIN = 'https://go2njemacka.de';
+const SITE_URL = CANONICAL_ORIGIN;
 
 /* ================================
    SEO METADATA
@@ -38,7 +39,7 @@ const CANONICAL_ORIGIN = 'https://go2njemacka.de';
 export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL_ORIGIN),
   title: {
-    default: 'Go2Njemačka - Informacijski portal za život i rad u Njemačkoj',
+    default: ROOT_FALLBACK_TITLE,
     template: '%s | Go2Njemačka',
   },
   description:
@@ -69,6 +70,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="bs">
+      <head>
+        <title>{ROOT_FALLBACK_TITLE}</title>
+      </head>
       <body
         className={`${inter.variable} ${oswald.variable} font-sans bg-gray-50`}
       >
@@ -83,6 +87,7 @@ export default function RootLayout({
         />
 
         <Header />
+        <TitleGuard />
         {children}
         <Footer />
       </body>

@@ -14,12 +14,7 @@ import { WPPost } from '@/lib/types'
 import { formatBosnianDate } from '@/lib/date-utils'
 import { sanitizeContent } from '@/lib/sanitize'
 
-import {
-  generateMetaTitle,
-  generateMetaDescription,
-  getOgImage,
-  getCanonicalUrl,
-} from '@/lib/seo'
+import { getCanonicalUrl } from '@/lib/seo'
 
 import {
   generateArticleStructuredData,
@@ -85,29 +80,21 @@ async function getLatestPosts() {
 }
 
 /* ================= METADATA ================= */
-export async function generateMetadata(
-  { params }: PageProps
-): Promise<Metadata> {
-  const post = await getPost(params.postSlug)
-  if (!post) return { title: 'Stranica nije pronađena' }
-
-  const canonical = getCanonicalUrl(`/${post.slug}`)
-  const ogImage = getOgImage(post)
+export function generateMetadata({ params }: PageProps): Metadata {
+  const slugInput = (params.postSlug || '').trim()
+  const slug = slugInput || 'clanak'
+  const canonical = getCanonicalUrl(`/${slug}`)
+  const formattedTitle = slug
+    .split('-')
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ')
 
   return {
-    title: generateMetaTitle(post),
-    description: generateMetaDescription(post),
+    title: `${formattedTitle} | Go2Njemačka`,
+    description:
+      'Pročitajte cijeli članak na Go2Njemačka uz provjerene informacije o životu i radu u Njemačkoj.',
     alternates: { canonical },
     robots: 'index,follow',
-    openGraph: {
-      title: post.title,
-      description: generateMetaDescription(post),
-      url: canonical,
-      siteName: 'Go2Njemačka',
-      locale: 'bs_BA',
-      type: 'article',
-      images: ogImage ? [{ url: ogImage }] : [],
-    },
   }
 }
 

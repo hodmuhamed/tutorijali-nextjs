@@ -76,35 +76,22 @@ async function getCategories(): Promise<WPCategory[]> {
   }
 }
 
-export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const category = await getCategory(params.slug);
-
-  if (!category) {
-    return {
-      title: 'Kategorija nije pronađena | Go2Njemačka',
-    };
-  }
-
-  const canonical = getCanonicalUrl(`/c/${category.slug}`);
-  const description = category.description
-    ? stripHtml(category.description).substring(0, 160)
-    : `Pogledajte sve članke iz kategorije ${category.name} na Go2Njemačka.`;
+export function generateMetadata({ params }: PageProps): Metadata {
+  const slugInput = (params.slug || '').trim();
+  const slug = slugInput || 'kategorija';
+  const canonical = getCanonicalUrl(`/c/${slug}`);
+  const formattedName = slug
+    .split('-')
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
 
   return {
-    title: `${category.name} | Go2Njemačka`,
-    description,
+    title: `${formattedName} | Go2Njemačka`,
+    description: `Pogledajte sve članke iz kategorije ${formattedName} na Go2Njemačka.`,
     alternates: {
       canonical,
     },
     robots: isTestDomain ? 'noindex,nofollow' : 'index,follow',
-    openGraph: {
-      title: `${category.name} | Go2Njemačka`,
-      description,
-      url: canonical,
-      siteName: 'Go2Njemačka',
-      locale: 'bs_BA',
-      type: 'website',
-    },
   };
 }
 

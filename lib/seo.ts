@@ -1,11 +1,15 @@
 import { WPPost, WPSeoFields } from './types';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://tutorijali.org';
-const ORIGIN_CANONICAL = process.env.ORIGIN_CANONICAL || 'https://go2njemacka.de';
+export const CANONICAL_ORIGIN = 'https://go2njemacka.de';
+export const ROOT_FALLBACK_TITLE = 'Go2Njemačka – Život i rad u Njemačkoj';
+
+const siteUrlEnv = process.env.NEXT_PUBLIC_SITE_URL;
+const SITE_URL = siteUrlEnv || CANONICAL_ORIGIN;
 const SITE_NAME = 'Go2Njemačka';
 
 export function getCanonicalUrl(pathname: string): string {
-  return `${ORIGIN_CANONICAL}${pathname}`;
+  const normalizedPath = pathname.startsWith('/') ? pathname : `/${pathname}`;
+  return `${CANONICAL_ORIGIN}${normalizedPath}`;
 }
 
 export function stripHtml(html: string): string {
@@ -44,4 +48,4 @@ export function getOgImage(post: WPPost): string | undefined {
   return undefined;
 }
 
-export const isTestDomain = SITE_URL.includes('tutorijali.org');
+export const isTestDomain = Boolean(siteUrlEnv && siteUrlEnv.includes('tutorijali.org'));
