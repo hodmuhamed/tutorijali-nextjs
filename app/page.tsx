@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import Link from 'next/link'
 import dynamic from 'next/dynamic'
 
 import { graphqlFetch } from '@/lib/wpgraphql'
@@ -15,12 +14,10 @@ import { mapHomeFeatured } from '@/lib/mappers/homeFeatured'
 import { WPPost, WPCategory } from '@/lib/types'
 import TopTags from '@/components/TopTags'
 import FeaturedGrid from '@/components/homepage/FeaturedGrid'
-import { PostCard } from '@/components/PostCard'
+import CategorySection from '@/components/homepage/CategorySection'
 import { Sidebar } from '@/components/Sidebar'
 
 import { getCanonicalUrl } from '@/lib/seo'
-import { getCategoryColor } from '@/lib/category-colors'
-import { ChevronRight, TrendingUp } from 'lucide-react'
 
 /* =========================
    🔥 ADSENSE – CLIENT ONLY
@@ -52,6 +49,19 @@ interface PostsData {
 
 interface CategoriesData {
   categories?: { nodes?: WPCategory[] }
+}
+
+const categoryDescriptions: Record<string, string> = {
+  'dolazak-u-njemacku':
+    'Vodiči za dokumentaciju, prve adrese i životne navike nakon dolaska u Njemačku.',
+  posao:
+    'Ponude, radna prava i koraci za sigurno napredovanje na njemačkom tržištu rada.',
+  'povrat-poreza':
+    'Praktične smjernice za godišnju poreznu prijavu, povrat novca i olakšice na koje imate pravo.',
+  savjeti:
+    'Korisni trikovi i provjerene preporuke za svakodnevne situacije u Njemačkoj.',
+  'mirovina-u-njemackoj':
+    'Objašnjavamo penzioni sistem, staž i kako osigurati stabilnu buduću mirovinu.',
 }
 
 /* =========================
@@ -116,7 +126,7 @@ export default async function Home() {
     const posts = await getCategoryPosts(mirovinaCategory.databaseId)
     mirovinaPopular = posts
       .filter(p => p.id && !usedPostIds.has(p.id))
-      .slice(0, 3)
+      .slice(0, 4)
   }
 
   const highlightCategories = categories.filter(cat =>
@@ -162,26 +172,14 @@ export default async function Home() {
           <main className="lg:col-span-2 space-y-10">
 
             {mirovinaPopular.length > 0 && (
-              <section className="bg-white border-l-4 border-red-600 p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-2">
-                    <TrendingUp className="w-5 h-5 text-red-600" />
-                    <h2 className="text-xl font-bold uppercase">
-                      Mirovina u Njemačkoj
-                    </h2>
-                  </div>
-
-                  <Link href="/c/mirovina-u-njemackoj">
-                    Vidi sve <ChevronRight className="inline w-4 h-4" />
-                  </Link>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-                  {mirovinaPopular.map(post => (
-                    <PostCard key={post.id} post={post} variant="featured" />
-                  ))}
-                </div>
-              </section>
+              <CategorySection
+                title="Mirovina u Njemačkoj"
+                slug="mirovina-u-njemackoj"
+                eyebrow="Najčitanije"
+                description={categoryDescriptions['mirovina-u-njemackoj']}
+                posts={mirovinaPopular}
+                viewAllHref="/c/mirovina-u-njemackoj"
+              />
             )}
 
             <Adsense
@@ -194,23 +192,15 @@ export default async function Home() {
               const posts = categoryPostsMap[category.slug] ?? []
               if (!posts.length) return null
 
-              const colors = getCategoryColor(category.slug)
-
               return (
-                <section
+                <CategorySection
                   key={category.id}
-                  className={`bg-white border-l-4 ${colors.border} p-6`}
-                >
-                  <h2 className={`text-xl font-bold uppercase ${colors.text}`}>
-                    {category.name}
-                  </h2>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
-                    {posts.slice(0, 4).map(post => (
-                      <PostCard key={post.id} post={post} variant="compact" />
-                    ))}
-                  </div>
-                </section>
+                  title={category.name}
+                  slug={category.slug}
+                  description={categoryDescriptions[category.slug]}
+                  posts={posts}
+                  viewAllHref={`/c/${category.slug}`}
+                />
               )
             })}
           </main>
