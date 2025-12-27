@@ -27,14 +27,21 @@ export function TitleGuard() {
 
     ensureTitle()
 
-    const observer = new MutationObserver(ensureTitle)
+    const observer = new MutationObserver(() => {
+      requestAnimationFrame(ensureTitle)
+    })
     observer.observe(document.head, {
       childList: true,
       characterData: true,
       subtree: true,
     })
 
-    return () => observer.disconnect()
+    const intervalId = window.setInterval(ensureTitle, 5000)
+
+    return () => {
+      observer.disconnect()
+      clearInterval(intervalId)
+    }
   }, [])
 
   return null
