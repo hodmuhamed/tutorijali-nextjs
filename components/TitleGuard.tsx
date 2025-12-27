@@ -17,7 +17,9 @@ export function TitleGuard() {
       }
 
       const current = (titleElement.textContent || document.title || '').trim()
-      if (!current) {
+      const isMissingTitle = !current || current.toLowerCase() === 'untitled'
+
+      if (isMissingTitle) {
         titleElement.textContent = ROOT_FALLBACK_TITLE
         document.title = ROOT_FALLBACK_TITLE
       }
